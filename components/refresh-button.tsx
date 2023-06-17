@@ -9,6 +9,7 @@ export default function RefreshButton() {
 
   return (
     <button
+      type='button'
       className={`${
         isPending ? 'cursor-not-allowed text-gray-400' : ''
       } text-sm text-gray-500 hover:text-gray-900`}

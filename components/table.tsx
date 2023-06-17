@@ -1,6 +1,8 @@
+import Image from 'next/image'
+
 import prisma from '@/lib/prisma'
 import { timeAgo } from '@/lib/utils'
-import Image from 'next/image'
+
 import RefreshButton from './refresh-button'
 
 export default async function Table() {

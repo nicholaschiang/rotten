@@ -1,5 +1,5 @@
-import ms from 'ms'
 import { ClassValue, clsx } from 'clsx'
+import ms from 'ms'
 import { twMerge } from 'tailwind-merge'
 
 export function timeAgo(timestamp: Date, timeOnly?: boolean): string {
